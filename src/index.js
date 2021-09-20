@@ -38,7 +38,9 @@ const member_info_handler = async(context) => {
         }
         handleMemberFlow.member_detail_handler(context)
     } else {
-        context.state.flow_status = 'member_register_name'
+        if (context.state.flow_status === '') {
+            context.state.flow_status = 'member_register_name'
+        }
         handleMemberFlow.memberHandler(context)
     }
 
