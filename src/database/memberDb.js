@@ -2,7 +2,7 @@ var Airtable = require('airtable');
 const { reject } = require('lodash');
 
 // var base = new Airtable({ apiKey: process.env.AIR_TABLE_KEY }).base('appvWmZ9TJlWoLfNc');
-var base = new Airtable({ apiKey: 'keyn0kScq3m53ynDm' }).base('appvWmZ9TJlWoLfNc');
+var base = new Airtable({ apiKey: process.env.AIR_TABLE_KEY }).base('appvWmZ9TJlWoLfNc');
 
 const _ = require('lodash')
 
