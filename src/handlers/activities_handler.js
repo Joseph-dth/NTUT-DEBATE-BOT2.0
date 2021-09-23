@@ -52,7 +52,7 @@ const activitiesHandler = async(context) => {
 
 
 
-    const altText = 'this is a carousel template';
+    const altText = '近期活動';
     await context.sendCarouselTemplate(altText, columns);
 
 }
