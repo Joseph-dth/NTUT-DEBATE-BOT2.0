@@ -19,7 +19,7 @@ const verifyMember = async(lineID) => {
 }
 
 async function Unknown(context) {
-    await context.sendText('我是專屬於你的機器小編，聽不懂個別的訊息(>﹏<)\n如果有任何想詢問的請聯絡我們IG或FB的真人小編喔～～');
+    await context.sendText('P.S. 我是專屬於你的機器小編，聽不懂個別的訊息(>﹏<)\n如果有任何想詢問的請聯絡我們IG或FB的真人小編喔～～');
 }
 
 
